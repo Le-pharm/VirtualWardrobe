@@ -1,0 +1,139 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+}
+
+/* Adding Icons to Navigation */
+nav ul li a:before {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+.feature {
+    margin: 20px auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.feature img {
+    width: 85%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Contact Form Styles */
+#contact form {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Footer Styles */
+footer {
+    background: #222;
+    color: #ccc;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .feature {
+        width: 95%;
+    }
+}
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#drop-area.highlight {
+    border-color:red;
+}
+
+#gallery {
+    margin-top: 20px;
+}
+
+#gallery img {
+    width: 150px;
+    margin: 10px;
+    vertical-align: middle;
+	background-color: skyblue;
+}

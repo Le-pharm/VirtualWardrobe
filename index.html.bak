@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virtual Wardrobe Demo</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    nav { background: #333; color: #fff; text-align: center; padding: 10px 0; }
+    nav a { color: #fff; text-decoration: none; padding: 10px 15px; }
+    nav a:hover { background-color: #555; }
+    header { background: #333; color: #fff; padding: 10px 20px; text-align: center; }
+    section { margin: 20px; padding: 20px; background: #fff; border-radius: 8px; }
+    img { width: 100%; max-width: 600px; display: block; margin: 0 auto; }
+    footer { text-align: center; padding: 10px 20px; background: #333; color: #fff; }
+</style>
+</head>
+<body>
+<nav>
+    <a href="#avatar">Avatar Selection</a>
+    <a href="#tryon">Virtual Try-On</a>
+    <a href="#recommendations">Style Recommendations</a>
+</nav>
+<header>
+    <h1>Virtual Wardrobe Demo</h1>
+</header>
+<section id="avatar">
+    <h2>Avatar Selection</h2>
+    <p>Start your experience by selecting an avatar that matches your body type and features.</p>
+    <img src="path_to_avatar_selection_image" alt="Avatar Selection">
+</section>
+<section id="tryon">
+    <h2>Virtual Try-On</h2>
+    <p>Try on different outfits in real-time using your personalized avatar.</p>
+    <img src="path_to_virtual_tryon_image" alt="Virtual Try-On">
+</section>
+<section id="recommendations">
+    <h2>Style Recommendations</h2>
+    <p>Get automated outfit pairing suggestions based on your preferences and current trends.</p>
+    <img src="path_to_style_recommendations_image" alt="Style Recommendations">
+</section>
+<footer>
+    <p>Contact Us: info@virtualwardrobe.com</p>
+</footer>
+</body>
+</html>
